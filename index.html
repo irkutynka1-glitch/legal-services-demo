@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Частная правовая практика. Защита бизнеса в арбитражных спорах: сохраняю активы и репутацию собственников и генеральных директоров.">
+  <title>Лендинг юриста</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="intro" id="intro" aria-hidden="true">
+    <canvas class="intro__canvas" id="intro-canvas"></canvas>
+    <img class="intro__img" id="themis-img" src="images/themis.png" alt="" width="320" height="320">
+  </div>
+
+  <header class="header">
+    <div class="header__inner">
+      <a class="header__logo" href="#hero">
+        Имя&nbsp;Фамилия
+        <span class="header__logo-note">Частная правовая практика</span>
+      </a>
+
+      <nav class="header__nav" aria-label="Основная навигация">
+        <ul class="nav">
+          <li class="nav__item"><a class="nav__link" href="#services">Услуги</a></li>
+          <li class="nav__item"><a class="nav__link" href="#process">Порядок работы</a></li>
+          <li class="nav__item"><a class="nav__link" href="#about">Обо мне</a></li>
+          <li class="nav__item"><a class="nav__link" href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <a class="header__cta" href="https://t.me/username" rel="noopener">Связаться в Telegram</a>
+
+      <button class="header__menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <nav aria-label="Мобильная навигация">
+        <ul class="mobile-menu__nav">
+          <li><a class="mobile-menu__link" href="#services">Услуги</a></li>
+          <li><a class="mobile-menu__link" href="#process">Порядок работы</a></li>
+          <li><a class="mobile-menu__link" href="#about">Обо мне</a></li>
+          <li><a class="mobile-menu__link" href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+      <a class="header__cta mobile-menu__cta" href="https://t.me/username" rel="noopener">Связаться в Telegram</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero__inner">
+        <div class="hero__content hero__content--desktop">
+          <h1 class="hero__title" id="hero-title">
+            <span class="hero__line">Защита бизнеса</span>
+            <span class="hero__line">в арбитражных спорах</span>
+            <span class="hero__line"><span class="hero__accent">Активы и репутация</span></span>
+            <span class="hero__line">под защитой</span>
+            <a class="hero__button" href="#contacts">Получить консультацию</a>
+          </h1>
+        </div>
+
+        <div class="hero__content hero__content--mobile">
+          <h1 class="hero__title">
+            <span class="hero__line">Защита бизнеса</span>
+            <span class="hero__line">в арбитражных спорах</span>
+            <span class="hero__line"><span class="hero__accent">Сохраняю</span> ваши <span class="hero__accent">активы</span></span>
+            <span class="hero__line">и <span class="hero__accent">репутацию</span></span>
+          </h1>
+          <p class="hero__subtitle">Защита интересов юридических и физических лиц</p>
+          <a class="hero__button" href="#contacts">Получить консультацию</a>
+        </div>
+
+        <figure class="hero__photo">
+          <picture class="hero__picture">
+            <source media="(min-width: 360px) and (max-width: 430px)" srcset="images/advokat-mobile-vertical.png" width="712" height="1422">
+            <img class="hero__photo-img" src="images/advokat-hero-v2.png" alt="Деловой портрет адвоката — Имя Фамилия" width="1537" height="1023">
+          </picture>
+        </figure>
+      </div>
+    </section>
+
+    <section class="process" id="process" aria-labelledby="process-title">
+      <div class="process__inner">
+        <h2 class="process__title" id="process-title">Как я работаю</h2>
+
+        <div class="process__steps">
+          <svg class="process__connector" viewBox="0 0 1200 220" preserveAspectRatio="none" aria-hidden="true"><path d="M100 36 H1100"></path></svg>
+
+          <article class="process__step process__step--1">
+            <div class="process__card">
+              <span class="process__number">01</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg>
+            </div>
+            <p>Анализ перспектив судебного дела и&nbsp;определение рисков</p>
+          </article>
+
+          <article class="process__step process__step--2">
+            <div class="process__card">
+              <span class="process__number">02</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m11 17 2 2a1 1 0 1 0 3-3"></path><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"></path><path d="m21 3 1 11h-2"></path><path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"></path><path d="M3 4h8"></path></svg>
+            </div>
+            <p>Досудебное урегулирование спора: претензия и&nbsp;переговоры</p>
+          </article>
+
+          <article class="process__step process__step--3">
+            <div class="process__card">
+              <span class="process__number">03</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 2h-4a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8"></path><path d="M16.706 2.706A2.4 2.4 0 0 0 15 2v5a1 1 0 0 0 1 1h5a2.4 2.4 0 0 0-.706-1.706z"></path><path d="M5 7a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h8a2 2 0 0 0 1.732-1"></path></svg>
+            </div>
+            <p>Помощь в&nbsp;сборе необходимых документов для суда</p>
+          </article>
+
+          <article class="process__step process__step--4">
+            <div class="process__card">
+              <span class="process__number">04</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"></path></svg>
+            </div>
+            <p>Разработка правовой позиции, подготовка и&nbsp;подача иска</p>
+          </article>
+
+          <article class="process__step process__step--5">
+            <div class="process__card">
+              <span class="process__number">05</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+            </div>
+            <p>Контроль исполнительного производства по&nbsp;решению суда</p>
+          </article>
+
+          <article class="process__step process__step--6">
+            <div class="process__card">
+              <span class="process__number">06</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+            </div>
+            <p>Обжалование решения суда при&nbsp;необходимости</p>
+          </article>
+        </div>
+
+        <div class="process__action"><a class="header__cta process__cta" href="https://t.me/username" rel="noopener">Связаться в Telegram</a></div>
+      </div>
+    </section>
+
+    <section class="services" id="services" aria-labelledby="services-title">
+      <div class="services__inner">
+        <h2 class="services__title" id="services-title">Услуги и стоимость</h2>
+
+        <div class="services__desktop" data-services-tabs>
+          <div class="services__list" data-slot="tabs-list" role="tablist" aria-label="Направления юридической практики">
+            <button class="services__tab" type="button" role="tab" data-service-id="contracts" data-state="active" aria-selected="true"><span class="services__tab-number">01</span><span class="services__tab-name">Споры по договорам поставки, подряда, аренды</span><span class="services__tab-price">от 70 000 ₽</span></button>
+            <button class="services__tab" type="button" role="tab" data-service-id="corporate" data-state="inactive" aria-selected="false"><span class="services__tab-number">02</span><span class="services__tab-name">Корпоративные споры</span><span class="services__tab-price">от 80 000 ₽</span></button>
+            <button class="services__tab" type="button" role="tab" data-service-id="pretrial" data-state="inactive" aria-selected="false"><span class="services__tab-number">03</span><span class="services__tab-name">Досудебное урегулирование споров</span><span class="services__tab-price">от 25 000 ₽</span></button>
+            <button class="services__tab" type="button" role="tab" data-service-id="court" data-state="inactive" aria-selected="false"><span class="services__tab-number">04</span><span class="services__tab-name">Представительство в суде</span><span class="services__tab-price">от 70 000 ₽</span></button>
+            <button class="services__tab" type="button" role="tab" data-service-id="appeal" data-state="inactive" aria-selected="false"><span class="services__tab-number">05</span><span class="services__tab-name">Апелляция и кассация</span><span class="services__tab-price">от 50 000 ₽</span></button>
+            <button class="services__tab" type="button" role="tab" data-service-id="enforcement" data-state="inactive" aria-selected="false"><span class="services__tab-number">06</span><span class="services__tab-name">Исполнительное производство</span><span class="services__tab-price">от 40 000 ₽</span></button>
+          </div>
+
+          <div class="services__panel" data-service-panel="contracts" data-state="active" role="tabpanel"><div class="services__detail"><h3 class="services__detail-title">Споры по договорам поставки, подряда, аренды</h3><p class="services__description">Защита интересов бизнеса в спорах, связанных с исполнением, изменением и расторжением коммерческих договоров.</p><div class="services__included"><p class="services__included-label">В работу входит</p><ul><li>Анализ договора, документов и деловой переписки</li><li>Формирование правовой позиции и претензионная работа</li><li>Подготовка процессуальных документов и ведение дела в суде</li></ul></div></div></div>
+          <div class="services__panel" data-service-panel="corporate" data-state="inactive" role="tabpanel"><div class="services__detail"><h3 class="services__detail-title">Корпоративные споры</h3><p class="services__description">Сопровождение конфликтов между участниками общества и защита интересов собственников бизнеса.</p><div class="services__included"><p class="services__included-label">В работу входит</p><ul><li>Анализ корпоративных документов и обстоятельств спора</li><li>Разработка стратегии защиты интересов доверителя</li><li>Подготовка документов и представительство в суде</li></ul></div></div></div>
+          <div class="services__panel" data-service-panel="pretrial" data-state="inactive" role="tabpanel"><div class="services__detail"><h3 class="services__detail-title">Досудебное урегулирование споров</h3><p class="services__description">Поиск правового и экономически разумного решения до обращения в суд.</p><div class="services__included"><p class="services__included-label">В работу входит</p><ul><li>Оценка документов и перспектив урегулирования</li><li>Подготовка претензии, ответа и проекта соглашения</li><li>Переговоры с контрагентом от имени доверителя</li></ul></div></div></div>
+          <div class="services__panel" data-service-panel="court" data-state="inactive" role="tabpanel"><div class="services__detail"><h3 class="services__detail-title">Представительство в суде</h3><p class="services__description">Комплексное ведение судебного дела с момента анализа ситуации до принятия решения.</p><div class="services__included"><p class="services__included-label">В работу входит</p><ul><li>Определение стратегии и доказательственной базы</li><li>Подготовка и подача процессуальных документов</li><li>Участие в судебных заседаниях и защита позиции</li></ul></div></div></div>
+          <div class="services__panel" data-service-panel="appeal" data-state="inactive" role="tabpanel"><div class="services__detail"><h3 class="services__detail-title">Апелляция и кассация</h3><p class="services__description">Проверка судебного акта и подготовка аргументированной позиции для его обжалования.</p><div class="services__included"><p class="services__included-label">В работу входит</p><ul><li>Изучение решения суда и материалов дела</li><li>Оценка оснований и перспектив обжалования</li><li>Подготовка жалобы и участие в судебном заседании</li></ul></div></div></div>
+          <div class="services__panel" data-service-panel="enforcement" data-state="inactive" role="tabpanel"><div class="services__detail"><h3 class="services__detail-title">Исполнительное производство</h3><p class="services__description">Юридическое сопровождение фактического исполнения вступившего в силу решения суда.</p><div class="services__included"><p class="services__included-label">В работу входит</p><ul><li>Подготовка документов для возбуждения производства</li><li>Взаимодействие с судебными приставами и контроль сроков</li><li>Обжалование незаконных действий или бездействия</li></ul></div></div></div>
+        </div>
+
+        <div class="services__mobile" data-services-accordion>
+          <div class="services__accordion-item" data-service-item="contracts" data-state="closed"><button class="services__accordion-trigger" type="button" data-slot="accordion-trigger" data-state="closed" aria-expanded="false"><span class="services__tab-number">01</span><span class="services__tab-name">Споры по договорам поставки, подряда, аренды</span><span class="services__tab-price">от 70 000 ₽</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button><div class="services__accordion-content" data-service-content data-state="closed" hidden><div class="services__detail services__detail--mobile"><h3 class="services__detail-title">Споры по договорам поставки, подряда, аренды</h3><p class="services__description">Защита интересов бизнеса в спорах, связанных с исполнением, изменением и расторжением коммерческих договоров.</p><div class="services__included"><p class="services__included-label">В работу входит</p><ul><li>Анализ договора, документов и деловой переписки</li><li>Формирование правовой позиции и претензионная работа</li><li>Подготовка процессуальных документов и ведение дела в суде</li></ul></div></div></div></div>
+          <div class="services__accordion-item" data-service-item="corporate" data-state="closed"><button class="services__accordion-trigger" type="button" data-slot="accordion-trigger" data-state="closed" aria-expanded="false"><span class="services__tab-number">02</span><span class="services__tab-name">Корпоративные споры</span><span class="services__tab-price">от 80 000 ₽</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button><div class="services__accordion-content" data-service-content data-state="closed" hidden><div class="services__detail services__detail--mobile"><h3 class="services__detail-title">Корпоративные споры</h3><p class="services__description">Сопровождение конфликтов между участниками общества и защита интересов собственников бизнеса.</p><div class="services__included"><p class="services__included-label">В работу входит</p><ul><li>Анализ корпоративных документов и обстоятельств спора</li><li>Разработка стратегии защиты интересов доверителя</li><li>Подготовка документов и представительство в суде</li></ul></div></div></div></div>
+          <div class="services__accordion-item" data-service-item="pretrial" data-state="closed"><button class="services__accordion-trigger" type="button" data-slot="accordion-trigger" data-state="closed" aria-expanded="false"><span class="services__tab-number">03</span><span class="services__tab-name">Досудебное урегулирование споров</span><span class="services__tab-price">от 25 000 ₽</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button><div class="services__accordion-content" data-service-content data-state="closed" hidden><div class="services__detail services__detail--mobile"><h3 class="services__detail-title">Досудебное урегулирование споров</h3><p class="services__description">Поиск правового и экономически разумного решения до обращения в суд.</p><div class="services__included"><p class="services__included-label">В работу входит</p><ul><li>Оценка документов и перспектив урегулирования</li><li>Подготовка претензии, ответа и проекта соглашения</li><li>Переговоры с контрагентом от имени доверителя</li></ul></div></div></div></div>
+          <div class="services__accordion-item" data-service-item="court" data-state="closed"><button class="services__accordion-trigger" type="button" data-slot="accordion-trigger" data-state="closed" aria-expanded="false"><span class="services__tab-number">04</span><span class="services__tab-name">Представительство в суде</span><span class="services__tab-price">от 70 000 ₽</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button><div class="services__accordion-content" data-service-content data-state="closed" hidden><div class="services__detail services__detail--mobile"><h3 class="services__detail-title">Представительство в суде</h3><p class="services__description">Комплексное ведение судебного дела с момента анализа ситуации до принятия решения.</p><div class="services__included"><p class="services__included-label">В работу входит</p><ul><li>Определение стратегии и доказательственной базы</li><li>Подготовка и подача процессуальных документов</li><li>Участие в судебных заседаниях и защита позиции</li></ul></div></div></div></div>
+          <div class="services__accordion-item" data-service-item="appeal" data-state="closed"><button class="services__accordion-trigger" type="button" data-slot="accordion-trigger" data-state="closed" aria-expanded="false"><span class="services__tab-number">05</span><span class="services__tab-name">Апелляция и кассация</span><span class="services__tab-price">от 50 000 ₽</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button><div class="services__accordion-content" data-service-content data-state="closed" hidden><div class="services__detail services__detail--mobile"><h3 class="services__detail-title">Апелляция и кассация</h3><p class="services__description">Проверка судебного акта и подготовка аргументированной позиции для его обжалования.</p><div class="services__included"><p class="services__included-label">В работу входит</p><ul><li>Изучение решения суда и материалов дела</li><li>Оценка оснований и перспектив обжалования</li><li>Подготовка жалобы и участие в судебном заседании</li></ul></div></div></div></div>
+          <div class="services__accordion-item" data-service-item="enforcement" data-state="closed"><button class="services__accordion-trigger" type="button" data-slot="accordion-trigger" data-state="closed" aria-expanded="false"><span class="services__tab-number">06</span><span class="services__tab-name">Исполнительное производство</span><span class="services__tab-price">от 40 000 ₽</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button><div class="services__accordion-content" data-service-content data-state="closed" hidden><div class="services__detail services__detail--mobile"><h3 class="services__detail-title">Исполнительное производство</h3><p class="services__description">Юридическое сопровождение фактического исполнения вступившего в силу решения суда.</p><div class="services__included"><p class="services__included-label">В работу входит</p><ul><li>Подготовка документов для возбуждения производства</li><li>Взаимодействие с судебными приставами и контроль сроков</li><li>Обжалование незаконных действий или бездействия</li></ul></div></div></div></div>
+        </div>
+
+        <p class="services__note">Точная стоимость определяется после изучения документов, сложности спора и объёма работы</p>
+      </div>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="about__inner">
+        <picture class="about__themis-picture" aria-hidden="true">
+          <source media="(min-width: 360px) and (max-width: 430px)" srcset="images/femida-about-mobile.png" width="1143" height="2048">
+          <img class="about__themis" src="images/femida-about.png" alt="" width="2048" height="2048">
+        </picture>
+
+        <div class="about__copy">
+          <h2 class="about__title" id="about-title">Обо мне</h2>
+          <p class="about__text">Судебный юрист по арбитражным и гражданским делам. Представляю интересы юридических и физических лиц на всех этапах спора — от анализа ситуации до исполнения судебного решения.</p>
+        </div>
+
+        <div class="about__details">
+          <ol class="about__list">
+            <li class="about__item"><span class="about__number">01</span><span>Арбитражные и гражданские споры</span></li>
+            <li class="about__item"><span class="about__number">02</span><span>Работа с юридическими и физическими лицами</span></li>
+            <li class="about__item"><span class="about__number">03</span><span>Стратегия по делу после изучения документов</span></li>
+            <li class="about__item"><span class="about__number">04</span><span>Сопровождение на всех стадиях судебного процесса</span></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts" id="contacts" aria-labelledby="contacts-title">
+      <div class="contacts__inner">
+        <h2 class="contacts__title" id="contacts-title">Получить консультацию</h2>
+        <p class="contacts__text">Свяжитесь удобным способом — консультации возможны дистанционно и с выездом</p>
+        <div class="contacts__actions">
+          <a class="contacts__button contacts__button--primary" href="tel:+79000000000">Позвонить</a>
+          <a class="contacts__button" href="https://max.ru/username" target="_blank" rel="noopener noreferrer">MAX</a>
+          <a class="contacts__button" href="https://t.me/username" target="_blank" rel="noopener noreferrer">Telegram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p>Имя Фамилия, Частная правовая практика</p>
+      <p class="footer__copyright">© 2026 Все права защищены</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
