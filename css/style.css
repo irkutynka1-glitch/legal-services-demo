@@ -1320,7 +1320,7 @@ h3 {
     margin: 0;
     object-fit: contain;
     object-position: left center;
-    opacity: 0.11;
+    opacity: 0.18;
     filter: saturate(0.56) brightness(0.7) contrast(0.86);
     transform: translateY(-50%);
   }
