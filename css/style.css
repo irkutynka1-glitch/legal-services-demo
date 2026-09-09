@@ -1606,7 +1606,7 @@ h3 {
   .hero__inner {
     grid-template-columns: minmax(0, 1.02fr) minmax(32rem, 0.98fr);
     gap: 0;
-    padding-block: 4.5rem 0;
+    padding-block: 0rem 0;
   }
 
   .hero__content {
